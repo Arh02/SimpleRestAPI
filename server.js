@@ -81,7 +81,7 @@ app.delete("/product/:id", async(req,res) =>{
 
 
 
-mongoose.connect("mongodb+srv://dbUser:9PMwZD7QA8F96uno@cluster0.nltndzu.mongodb.net/Node-API")
+mongoose.connect("mongodb+srv://dbUser:@cluster0.nltndzu.mongodb.net/Node-API")
 .then(()=>{
   app.listen(
     port, () => {
